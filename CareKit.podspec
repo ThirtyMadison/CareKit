@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
   s.source_files          = 'CareKit/CareKit/**/*'
   s.exclude_files         = [ 'CareKit/CareKit/**/*.plist', 'OCKCatalog', 'OCKSample', 'DerivedData' ]
   s.requires_arc          = true
-  s.frameworks            = 'CareKitUI', 'CareKitStore'
   s.dependency 'CareKitUI', '2.0.2'
   s.dependency 'CareKitStore', '2.0.2'
 
