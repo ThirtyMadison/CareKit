@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform              = :ios
   s.ios.deployment_target = '13.0'
   s.swift_versions = '5.0'
-  s.source                = { :git => 'https://github.com/ThirtyMadison/CareKit.git', :tag => s.version.to_s, :submodules => true }
+  s.source                = { :git => 'https://github.com/ThirtyMadison/CareKit.git', :branch => 'stable' }
   
   s.source_files          = 'CareKitStore/CareKitStore/**/*'
   s.exclude_files         = 'CareKitStore/CareKitStore/**/*.plist'
