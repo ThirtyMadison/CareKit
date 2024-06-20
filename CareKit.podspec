@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'CareKit'
-  s.version               = '2.0.2'
+  s.version               = '0.0.2'
   s.summary               = 'CareKit is an open source software framework for creating apps that help people better understand and manage their health.'
   s.homepage              = 'https://github.com/ThirtyMadison/CareKit/'
   s.documentation_url     = 'https://developer.apple.com/documentation/carekit'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source_files          = 'CareKit/CareKit/**/*'
   s.exclude_files         = [ 'CareKit/CareKit/**/*.plist', 'OCKCatalog', 'OCKSample', 'DerivedData' ]
   s.requires_arc          = true
-  s.dependency 'CareKitUI', '2.0.2'
-  s.dependency 'CareKitStore', '2.0.2'
+  s.dependency 'CareKitUI', '0.0.2'
+  s.dependency 'CareKitStore', '0.0.2'
 
 end
