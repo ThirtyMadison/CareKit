@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'CareKitUI'
-  s.version               = '0.0.2'
+  s.version               = '0.0.3'
   s.summary               = 'CareKit is an open source software framework for creating apps that help people better understand and manage their health.'
   s.homepage              = 'https://github.com/ThirtyMadison/CareKit/'
   s.documentation_url     = 'https://developer.apple.com/documentation/carekit'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform              = :ios
   s.ios.deployment_target = '13.0'
   s.swift_versions        = '5.0'
-  s.source                = { :git => 'https://github.com/ThirtyMadison/CareKit.git', :branch => 'stable' }
+  s.source                = { :git => 'https://github.com/ThirtyMadison/CareKit.git', :tag => s.version.to_s }
 
   s.source_files          = 'CareKitUI/CareKitUI/**/*'
   s.exclude_files         = ['CareKitUI/CareKitUI/**/*.plist']
